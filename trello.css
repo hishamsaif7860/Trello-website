@@ -1,0 +1,423 @@
+body {
+    margin:0;
+    background-color:#0079BF;
+}
+
+.container {
+    width: 1200px;
+    margin:auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* start header section */
+
+.header-logo {
+    width: 130px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: -60px;
+}
+
+.header img{
+    width:10%;
+}
+
+.header-nav {
+    margin-top: 30px;
+    margin-left: 900px;
+}
+
+.header-nav nav a {
+    text-decoration: none;
+    color:white;
+    padding: 15px 0px;
+    font-size: 20px;
+    margin: 0 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.header-nav nav a1{
+    color:skyblue;
+    font-size:20px;
+    padding: 15px 10px;
+    margin: 0 22px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color:white;
+}
+
+/* start of intro */
+.intro {
+    margin:50px auto;
+}
+
+.intro-txt {
+    width: 50%;
+}
+
+.intro-txt h1 {
+    margin:40px auto;
+    color: white;
+    font-size: 50px;
+}
+
+.intro-txt p {
+    margin:10px auto;
+    color: white;
+    font-size: 25px;
+}
+
+.intro-mail {
+    font-size:20px;
+    padding: 10px 30px;
+    
+}
+
+.intro-email a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(140, 207, 39);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.intro-email a:hover{
+    background-color: rgb(152, 185, 101);
+}
+
+/* start of team */
+.team {
+    margin:50px auto;
+}
+
+.team-txt {
+    width: 50%;
+}
+
+.team h1{
+    margin:40px auto;
+    color: white;
+    font-size: 50px;
+}
+
+.team p {
+    margin:60px auto;
+    color: white;
+    font-size: 24px;
+}
+
+.team .a a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(140, 207, 39);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* start of info*/
+.info {
+    margin: auto;
+}
+
+.info-txt {
+    width: 50%;
+}
+
+.info h1{
+    margin:50px 60px;
+    color: white;
+    font-size: 50px;
+}
+
+.info p {
+    margin:60px 60px;
+    color: white;
+    font-size: 24px;
+}
+
+.info-img img{
+    width:100%;
+    height: 80%;
+}
+
+/* start of built*/
+.built {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.built1 {
+    width:100%;
+}
+
+.built-txt {
+    width: 70%;
+}
+
+.built h3{
+    margin:40px auto;
+    color: white;
+    font-size: 50px;
+}
+
+.built p {
+    margin:40px auto;
+    color: white;
+    font-size: 24px;
+}
+
+.built li{
+    color: white;
+    font-size: 20px;
+}
+
+.built-img{
+    width:30%;
+}
+
+.built-img img {
+    width: 100%;
+}
+
+/* start of work*/
+.works {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.works h2{
+    margin:30px auto;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.works p {
+    margin:10px auto;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.works img{
+   width: 80%;
+   margin-left: 10%;
+}
+
+/* start of features */
+.features{
+    margin: 20px auto;
+    width: 100%;
+}
+
+.f1 h2{
+    
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.f1 p {
+    margin: 10px 120px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box-1 {
+    width: 20%;
+    background-color: white;
+    margin: 30px auto;
+    padding:20px;
+    border:1px solid #000;
+    text-align: justify;
+}
+
+.box-1 img{
+   width: 100%;
+}
+
+.box-1 h4 {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.box-1 p{
+    margin-bottom: 30px;
+
+}
+
+.box-1 a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        background-color: rgb(140, 207, 39);
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 30px;
+}
+
+/* start of smarter */
+
+.smarter{
+    width: 90%;
+    background-color: rgb(72,134,192);
+    max-width: 50px 100px;
+    height: 670px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.smart-text{
+    width: 60%;
+    color: white;
+    margin-left: 220px;
+    text-align: center;
+}
+
+.smart-text p{
+    font-size: 30px;
+}
+
+.smart-text h2{
+    font-size: 40px;
+}
+
+.smart-img {
+    width: 100%;
+}
+
+.smart-img img {
+    width: 20%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.smart1-img {
+    width: 100%;
+}
+
+.smart1-img img {
+    width: 15%;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+.smart11-img img{
+    width: 30%;
+    margin-left: 150px;
+}
+
+.smart-link{
+    width:25%;
+    margin-top:80px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 450px;
+    background-color: white;
+}
+
+.smart-link a {
+    width: 30%;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+/* start of planning */
+.plan-img {
+    position: relative;
+    height:400px;
+}
+
+.plan-img img {
+    width: 100%;
+    height: 400px;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.img-txt {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+}
+
+.img-txt h2 {
+    font-size: 40px;
+}
+
+.img-txt p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.img-txt a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-txt a:hover {
+    background-color: rgb(202, 255, 123);
+}
+
+/* footer */
+.foot-box {
+    width: 100%;
+    height: 250px;
+    margin-top: -40px;
+}
+.foot-lang {
+    width: 100%;
+    margin-left: 500px;
+}
+.foot-lang select {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foot-links {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.foot-links a {
+    font-size: 25px;
+    padding-left: 20px;
+    color: white;
+}
+.foot-img img {
+    width: 20%;
+    margin-left: 485px;
+    margin-top: 30px;
+}
+.foot-text {
+    width: 30%;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 430px;
+}
